@@ -18,15 +18,15 @@
 			)
 		)
 		(property "Value" "TPS63802DLAR"
-			(at -0.254 -0.254 0)
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 			)
 		)
-		(property "Footprint" "MuffinParts:DLA0010A"
-			(at 0 -15.748 0)
+		(property "Footprint" "TPS63802:DLA0010A"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36,7 +36,7 @@
 			)
 		)
 		(property "Datasheet" "TPS63802DLAR"
-			(at 0 -13.208 0)
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -45,17 +45,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Buck-Boost Adjustable 1.8V~5.2V 1.3V~5.5V 2A VSON-10(2x3) DC-DC Converters ROHS"
-			(at 1.016 -20.574 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C2845237"
-			(at 0 -10.668 0)
+		(property "Description" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -72,7 +63,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "DLA0010A DLAR"
+		(property "ki_fp_filters" "DLA0010A"
 			(at 0 0 0)
 			(effects
 				(font

@@ -26,7 +26,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TPD1E10B06DPYR:X1SON-2_L1.0-W0.6-P0.65-BI"
+		(property "Footprint" "Muffin_SMD:X1SON-2_L1.0-W0.6-P0.65-BI"
 			(at 13.716 -4.064 0)
 			(effects
 				(font
@@ -65,6 +65,15 @@
 			)
 		)
 		(property "ki_keywords" "TPD1E10B06DPYR"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "X1SON-2*"
 			(at 0 0 0)
 			(effects
 				(font

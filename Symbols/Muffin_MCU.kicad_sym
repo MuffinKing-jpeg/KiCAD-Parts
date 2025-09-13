@@ -52,6 +52,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C432211"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "ki_keywords" "Arm Cortex-M0+ STM32G0 STM32G0x1"
 			(at 0 0 0)
 			(effects
