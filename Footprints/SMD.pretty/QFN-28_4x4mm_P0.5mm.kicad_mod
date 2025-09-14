@@ -453,7 +453,7 @@
 		(uuid "0691420d-58d4-4ffc-a9fb-9bd31d3de0db")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/PARTS/STM32G031G8Ux/STM32G031G8U6.STEP"
+	(model "../3d-models/ST/STM32G031G8U6.STEP"
 		(offset
 			(xyz 0 0 0)
 		)

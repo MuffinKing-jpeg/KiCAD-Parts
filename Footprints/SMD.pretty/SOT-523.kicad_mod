@@ -211,7 +211,7 @@
 		(uuid "c657b944-7b2f-4a33-97eb-3fda0475377d")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/PARTS/SOT-523/SOT-523-STP.stp"
+	(model "../3d-models/SOT/SOT-523-STP.stp"
 		(offset
 			(xyz 0 -0.8 0.5)
 		)
