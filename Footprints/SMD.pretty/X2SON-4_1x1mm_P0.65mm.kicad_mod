@@ -442,7 +442,7 @@
 		(uuid "056799d3-89ce-414c-8e40-37a3968dff71")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/PARTS/3d-models/TI/DQN0004A.stp"
+	(model "../../3d-models/TI/DQN0004A.stp"
 		(offset
 			(xyz 0 0 0.02)
 		)

@@ -453,7 +453,7 @@
 		(uuid "0691420d-58d4-4ffc-a9fb-9bd31d3de0db")
 	)
 	(embedded_fonts no)
-	(model "../3d-models/ST/STM32G031G8U6.STEP"
+	(model "../../3d-models/ST/UFQFPN-28_L4.0-W4.0-H0.6-P0.50.step"
 		(offset
 			(xyz 0 0 0)
 		)
@@ -461,7 +461,7 @@
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz -90 -0 -0)
+			(xyz -0 -0 -0)
 		)
 	)
 )

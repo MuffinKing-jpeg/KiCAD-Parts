@@ -25,7 +25,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Muffin_CONNECTOR_THT:BATTERY_P2+P1.27mm_Horizontal"
 			(at 0 0 0)
 			(effects
 				(font
@@ -61,7 +61,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "Connector*:*_1x??_*"
+		(property "ki_fp_filters" "Connector*:*_1x??_* BATTERY*"
 			(at 0 0 0)
 			(effects
 				(font

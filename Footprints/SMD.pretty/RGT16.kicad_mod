@@ -1167,7 +1167,7 @@
 		(uuid "a4aefbca-f06e-43d7-85e0-229342de2525")
 	)
 	(embedded_fonts no)
-	(model "../3d-models/TI/RGT0016B.stp"
+	(model "../../3d-models/TI/RGT0016B.stp"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -24,7 +24,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MuffinParts:QFN-28_4x4mm_P0.5mm"
+		(property "Footprint" "Muffin_SMD:QFN-28_4x4mm_P0.5mm"
 			(at -15.24 -20.32 0)
 			(effects
 				(font

@@ -22,7 +22,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MuffinParts:X2SON-4_1x1mm_P0.65mm"
+		(property "Footprint" "Muffin_SMD:X2SON-4_1x1mm_P0.65mm"
 			(at 0 -11.43 0)
 			(effects
 				(font

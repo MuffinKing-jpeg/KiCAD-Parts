@@ -120,7 +120,7 @@
 		(uuid "cee475d4-c56d-417d-9443-8517b288e747")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/PARTS/ul_TPD1E10B06DPYR/DPY0002A.stp"
+	(model "../../3d-models/TI/DPY0002A.stp"
 		(offset
 			(xyz 0 -0 -0)
 		)

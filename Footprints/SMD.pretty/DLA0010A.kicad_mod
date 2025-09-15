@@ -246,7 +246,7 @@
 		(uuid "023a202e-02e6-4eda-8481-e63028d54d78")
 	)
 	(embedded_fonts no)
-	(model "../3d-models/TI/DLA0010A.stp"
+	(model "../../3d-models/TI/DLA0010A.stp"
 		(offset
 			(xyz 0 0 0)
 		)
