@@ -54,42 +54,6 @@
 		)
 	)
 	(attr through_hole)
-	(fp_poly
-		(pts
-			(xy 1.255 2.14) (xy 1.255 1.615) (xy 0.6 0) (xy -0.6 0) (xy -0.6 0.875) (xy 0.205 2.14)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill yes)
-		(layer "F.Cu")
-		(uuid "48cfba22-eff3-4812-97ab-7a3610b0999f")
-	)
-	(fp_poly
-		(pts
-			(xy 1.475 2.14) (xy 1.4 0.875) (xy 1.4 0) (xy 2.6 0) (xy 2.6 0.875) (xy 2.525 2.14)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill yes)
-		(layer "F.Cu")
-		(uuid "4f50ce36-be9a-4be6-bac1-c8ff8f020c11")
-	)
-	(fp_poly
-		(pts
-			(xy 2.745 2.14) (xy 2.75 1.615) (xy 3.4 0) (xy 4.6 0) (xy 4.6 0.875) (xy 3.795 2.14)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill yes)
-		(layer "F.Cu")
-		(uuid "43d144a6-794b-49ed-8e0d-c7d85185a33f")
-	)
 	(fp_line
 		(start -2.06 -1.46)
 		(end -2.06 6.36)
@@ -337,6 +301,7 @@
 		(drill 0.75)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
 		(uuid "4a59d5a3-4cfe-4b1d-b5aa-48c30f66d328")
 	)
 	(pad "2" thru_hole circle
