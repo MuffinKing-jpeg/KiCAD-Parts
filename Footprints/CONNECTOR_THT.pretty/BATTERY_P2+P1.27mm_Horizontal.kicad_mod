@@ -330,20 +330,8 @@
 	)
 	(embedded_fonts no)
 	(model "${KICAD9_3DMODEL_DIR}/Connector_JST.3dshapes/JST_PH_S3B-PH-K_1x03_P2.00mm_Horizontal.wrl"
-		(hide yes)
 		(offset
 			(xyz 0 0 0)
-		)
-		(scale
-			(xyz 1 1 1)
-		)
-		(rotate
-			(xyz -0 -0 -0)
-		)
-	)
-	(model "/run/media/andrii/50786A7A786A5EAA/Users/Andrii/My Documents/KiCad/LCSC/EasyEDA.3dshapes/CONN-TH_1.25T-3P-WP.wrl"
-		(offset
-			(xyz 2 -2.15 0)
 		)
 		(scale
 			(xyz 1 1 1)
