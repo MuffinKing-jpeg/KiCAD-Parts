@@ -22,8 +22,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 0 0 0)
+		(property "Footprint" "Muffin_THT:OLED_Module_I2C_WeAct"
+			(at -1.016 -23.368 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32,7 +32,7 @@
 			)
 		)
 		(property "Datasheet" "https://github.com/WeActStudio/WeActStudio.OLEDModule"
-			(at -0.254 -23.876 0)
+			(at -1.016 -25.654 0)
 			(effects
 				(font
 					(size 1.27 1.27)

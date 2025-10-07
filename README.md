@@ -9,6 +9,10 @@ This is just a library of components used by me.
 
 ## Symbols list
 
+### Displays
+
+- [WeAct OLED Module 128x64](https://github.com/WeActStudio/WeActStudio.OLEDModule)
+
 ### Connectors
 
 - PH2.0+PicoBlade1.25 THT Battery connector
@@ -17,6 +21,8 @@ This is just a library of components used by me.
 
 - TPS61022RWUR
 - TPS63802DLAR
+- TPS63020DSJ
+- TPS63070RNM
 
 ### Diodes
 
@@ -30,7 +36,8 @@ This is just a library of components used by me.
 
 ### MCU
 
-- STM32G0x1GxUx
+- STM32G031GxUx
+- STM32G071GxUx
 
 ### PMIC
 
@@ -54,3 +61,5 @@ This is just a library of components used by me.
 - X1SON-2 (0402 ***WTF, TI???***)
 - X2SON-4
 - DLA0010A (VSON-HR 10pin)
+- DSJ14
+- RNM0015A
