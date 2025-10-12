@@ -125,18 +125,8 @@
 		(uuid "c7fdd9fa-1e8b-4c2a-a419-6682e974f078")
 	)
 	(fp_line
-		(start -1.05 -1.549999)
-		(end 1.05 -1.549999)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "847eae76-d373-44c0-b72e-897f4a659e93")
-	)
-	(fp_line
 		(start -1.05 1.549999)
-		(end -1.05 -1.549999)
+		(end -1.05 -1.1)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -155,6 +145,26 @@
 		(uuid "006b7911-e6a4-4b16-b900-19af2cc8c494")
 	)
 	(fp_line
+		(start -0.6 -1.549999)
+		(end -1.05 -1.1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "a93b0484-ad2e-4d67-9068-0225d25fe0d6")
+	)
+	(fp_line
+		(start -0.6 -1.549999)
+		(end 1.05 -1.549999)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "847eae76-d373-44c0-b72e-897f4a659e93")
+	)
+	(fp_line
 		(start 1.05 1.549999)
 		(end 1.05 -1.549999)
 		(stroke
@@ -164,9 +174,8 @@
 		(layer "F.Fab")
 		(uuid "936af1f0-ad59-4e1c-8745-bc2a04a7ebbd")
 	)
-	(fp_text user "REF**"
+	(fp_text user "${REFERENCE}"
 		(at -1.5 0 90)
-		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "5fddb6e9-9489-4cc1-a69c-e383fa97d369")
 		(effects
@@ -178,7 +187,7 @@
 		)
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0 0 90)
+		(at 0 0 180)
 		(layer "F.Fab")
 		(uuid "e77d0160-c6ff-4784-bcbc-2d66e3446422")
 		(effects

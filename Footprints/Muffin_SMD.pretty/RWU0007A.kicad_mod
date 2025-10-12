@@ -5,7 +5,7 @@
 	(layer "F.Cu")
 	(descr "Texas  RWU0007A VQFN, 2x2mm, 7 Pin (https://www.ti.com/lit/ds/symlink/tps61022.pdf)")
 	(tags "Texas VQFN NoLead")
-	(property "Reference" "REF**"
+	(property "Reference" "${REFERENCE}"
 		(at 0 -2 0)
 		(layer "F.SilkS")
 		(uuid "b68492a5-43eb-49ae-a692-cea5e1a23cb4")
@@ -19,6 +19,7 @@
 	(property "Value" "RWU0007A"
 		(at 0 2 0)
 		(layer "F.Fab")
+		(hide yes)
 		(uuid "672f71fd-0081-446a-9470-cc938f520492")
 		(effects
 			(font

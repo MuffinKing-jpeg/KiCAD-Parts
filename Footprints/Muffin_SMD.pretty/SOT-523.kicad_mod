@@ -178,7 +178,7 @@
 		(layer "F.Fab")
 		(uuid "be722aa1-d9ee-49d2-88cf-5263d772d0ae")
 	)
-	(fp_text user "REF**"
+	(fp_text user "${REFERENCE}"
 		(at -1.1 0 90)
 		(unlocked yes)
 		(layer "F.SilkS")

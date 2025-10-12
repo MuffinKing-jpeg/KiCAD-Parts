@@ -304,7 +304,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "2.4MHz Buck-Boost 3A Adjustable 1.2V~5.5V 1 VSON-14-EP(3x4) Voltage Regulators - DC DC Switching Regulators ROHS"
 			(at 0 0 0)
 			(effects
 				(font
@@ -390,7 +390,7 @@
 				)
 			)
 			(pin input line
-				(at 0 -29.21 0)
+				(at 0 -21.59 0)
 				(length 7.62)
 				(name "EN"
 					(effects
@@ -408,7 +408,7 @@
 				)
 			)
 			(pin input line
-				(at 0 -33.02 0)
+				(at 0 -25.4 0)
 				(length 7.62)
 				(name "PS/SYNC"
 					(effects
@@ -462,7 +462,7 @@
 				)
 			)
 			(pin input line
-				(at 45.72 -36.83 180)
+				(at 45.72 -29.21 180)
 				(length 7.62)
 				(name "FB"
 					(effects
@@ -553,26 +553,8 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at 0 -20.32 0)
-				(length 7.62)
-				(name "VINA"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin open_collector line
-				(at 0 -36.83 0)
+				(at 0 -29.21 0)
 				(length 7.62)
 				(name "PG"
 					(effects
@@ -582,6 +564,24 @@
 					)
 				)
 				(number "14"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -41.91 0)
+				(length 7.62)
+				(name "VINA"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
 					(effects
 						(font
 							(size 1.27 1.27)

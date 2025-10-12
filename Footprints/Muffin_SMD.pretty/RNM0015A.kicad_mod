@@ -4,9 +4,8 @@
 	(generator_version "9.0")
 	(layer "F.Cu")
 	(tags "TPS630701RNMR ")
-	(property "Reference" "REF**"
+	(property "Reference" "${REFERENCE}"
 		(at -2.7 0 90)
-		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "f5b31810-88d3-4fa7-8dfe-9cfdc57b4ff8")
 		(effects
@@ -17,9 +16,9 @@
 		)
 	)
 	(property "Value" "RNM0015A"
-		(at 0 0 0)
-		(unlocked yes)
+		(at 0.1 2.6 0)
 		(layer "F.Fab")
+		(hide yes)
 		(uuid "55bb7831-4273-4752-abc3-2a7a7e3843d5")
 		(effects
 			(font
@@ -485,60 +484,20 @@
 		(layer "F.Paste")
 		(uuid "3ee4a701-963e-46cf-bf44-ab04567a4cec")
 	)
-	(fp_line
-		(start -1.325001 -1.575001)
-		(end 1.325001 -1.575001)
-		(stroke
-			(width 0.1)
-			(type solid)
+	(fp_poly
+		(pts
+			(xy 1.2 -1.5) (xy 1.2 1.5) (xy -1.2 1.5) (xy -1.2 -1.1) (xy -0.8 -1.5)
 		)
-		(layer "F.Fab")
-		(uuid "829ee718-b6ba-422b-9bdf-82c7da201ceb")
-	)
-	(fp_line
-		(start -1.325001 1.575001)
-		(end -1.325001 -1.575001)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "c76ba2c2-face-427d-ba62-2e39848d13a4")
-	)
-	(fp_line
-		(start -1.325001 1.575001)
-		(end 1.325001 1.575001)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "a72d6477-781e-40db-8ebd-f840fbe306d1")
-	)
-	(fp_line
-		(start 1.325001 1.575001)
-		(end 1.325001 -1.575001)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "06769bfd-8aa9-46fa-ad53-0f6e9127dc4b")
-	)
-	(fp_circle
-		(center -1.000001 -0.800001)
-		(end -0.800001 -0.800001)
 		(stroke
 			(width 0.1)
 			(type solid)
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "2b9a8c8b-e361-4238-a7a7-52912196db26")
+		(uuid "c1473430-ed41-403d-b708-71818e1e5791")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0 0 0)
-		(unlocked yes)
+		(at 0 0 90)
 		(layer "F.Fab")
 		(uuid "9cbd8d57-58af-4843-aa52-16919f01a23b")
 		(effects
@@ -640,7 +599,7 @@
 		(uuid "b906e13d-4ca1-4da8-bc8d-0ef500a9f1c0")
 	)
 	(embedded_fonts no)
-	(model "../../3d-models/TI/RNM0015A.stl"
+	(model "../../3d-models/TI/RNM0015A.stp"
 		(offset
 			(xyz 0 0 0)
 		)

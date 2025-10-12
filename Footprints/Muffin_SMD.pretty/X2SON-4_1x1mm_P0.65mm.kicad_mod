@@ -5,7 +5,7 @@
 	(layer "F.Cu")
 	(descr "X2SON 5 pin 1x1mm package, DQN0004A (Reference Datasheet: http://www.ti.com/lit/ds/sbvs193d/sbvs193d.pdf Reference part: TPS383x) [StepUp generated footprint]")
 	(tags "X2SON")
-	(property "Reference" "REF**"
+	(property "Reference" "${REFERENCE}"
 		(at 0 -1.5 0)
 		(layer "F.SilkS")
 		(uuid "0c5bf34b-b903-4982-a0d1-82fafcdcc86a")
