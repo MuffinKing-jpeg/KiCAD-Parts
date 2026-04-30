@@ -6,9 +6,9 @@
 	(descr "USB type A Plug, Horizontal, http://cnctech.us/pdfs/1001-011-01101.pdf")
 	(tags "USB-A")
 	(property "Reference" "REF**"
-		(at 6.53 -3.38 0)
+		(at 5 0 90)
 		(layer "F.SilkS")
-		(uuid "23f412f0-463a-49e4-a898-b9b8b0756776")
+		(uuid "a0f0e036-895e-473a-a9e1-6e2c5841c59a")
 		(effects
 			(font
 				(size 1 1)
@@ -16,10 +16,10 @@
 			)
 		)
 	)
-	(property "Value" "USB_A_PCB_Edge_receptacle"
-		(at 15.1 -1.64 180)
+	(property "Value" "USB_A_PCB_Edge"
+		(at 5.2 8.8 180)
 		(layer "F.Fab")
-		(uuid "d8f68b88-bfd3-4d1e-8695-ea5a08ec3a90")
+		(uuid "178d47c7-42f4-4a49-96c5-7e3df0accc29")
 		(effects
 			(font
 				(size 1 1)
@@ -32,7 +32,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "62201597-7fe5-4ed0-80d0-d5cb0fa3ff59")
+		(uuid "f618c43c-d602-42dc-909f-4945e73d1491")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -44,7 +44,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "68d66fcf-1943-4827-8a58-0a3429cea0ad")
+		(uuid "e0417507-9c46-4c9d-9575-db043cf75da0")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -61,7 +61,7 @@
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "135be3c3-9eeb-4415-a03c-a6d7f076dfcc")
+		(uuid "9462e910-1b3a-4c83-b9fc-5d30cbcf27fe")
 	)
 	(fp_line
 		(start 8 -6)
@@ -71,7 +71,7 @@
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "9054d766-0fc9-489a-8bf1-680995911150")
+		(uuid "4c7ec0ea-e0ff-4d4f-8212-389de620a7e6")
 	)
 	(fp_line
 		(start 8 6)
@@ -81,7 +81,7 @@
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "1c3e8edf-6670-4964-a0ac-1170d3c803ad")
+		(uuid "544b9245-46bb-473e-b824-8640e7a06ce9")
 	)
 	(fp_arc
 		(start -5 -5.2)
@@ -92,7 +92,7 @@
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "ccb185c1-7729-4d5c-b19b-6218f2989cd1")
+		(uuid "bad7fa30-976f-4df3-98a7-33e73866ba80")
 	)
 	(fp_arc
 		(start -4.2 6)
@@ -103,7 +103,7 @@
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "7379ddca-3573-467a-bf85-971bbd2ec485")
+		(uuid "029c860c-dac4-4548-abd8-f9661157dd29")
 	)
 	(fp_rect
 		(start -5 -6)
@@ -114,12 +114,12 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "119c6107-8d90-450a-a7a2-5538478b40a0")
+		(uuid "4d3e0ea5-9805-4640-a92f-a2e82ff4d42c")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 9.840001 0.099999 180)
+		(at 0 7 180)
 		(layer "F.Fab")
-		(uuid "5f5b4781-e92d-46ac-9f29-493f1bff0cd3")
+		(uuid "c939ede1-cfac-4306-b2be-0f059dd2963c")
 		(effects
 			(font
 				(size 1 1)
@@ -132,32 +132,39 @@
 		(size 7 2)
 		(layers "F.Cu" "F.Mask")
 		(roundrect_rratio 0.125)
-		(uuid "84ae191b-c69d-47f0-84a2-5944c12aa01f")
+		(uuid "81e3c1dd-beed-4e75-a772-df030df614e3")
 	)
 	(pad "2" smd roundrect
 		(at 0 1)
 		(size 6 1.5)
 		(layers "F.Cu" "F.Mask")
 		(roundrect_rratio 0.1666666667)
-		(uuid "1d9845cf-0871-4a7e-8e66-df9326b040cb")
+		(uuid "6a0d425a-6b10-41ec-9f90-8efd4d383f61")
 	)
 	(pad "3" smd roundrect
 		(at 0 -1)
 		(size 6 1.5)
 		(layers "F.Cu" "F.Mask")
 		(roundrect_rratio 0.1666666667)
-		(uuid "b9ec9a71-6bf6-44f9-8f0f-01b9a3ee1d35")
+		(uuid "3d7a579e-1fe6-4716-9b0d-f947ba562232")
 	)
 	(pad "4" smd roundrect
 		(at 0 -3.75)
 		(size 7 2)
 		(layers "F.Cu" "F.Mask")
 		(roundrect_rratio 0.125)
-		(uuid "7845a115-13e2-4a63-80f0-95838941fa25")
+		(uuid "be683454-ebdf-4663-8cbd-0e50f9eb001f")
+	)
+	(pad "SH" smd roundrect
+		(at 4 -4.6 180)
+		(size 0.3 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "2816b398-0155-4345-b391-311c1021e5a1")
 	)
 	(zone
 		(layers "F.Cu" "B.Cu")
-		(uuid "986dca5b-b27c-405e-9a5c-ccf3c5d38946")
+		(uuid "a321e000-3b33-4152-a369-af69cdaca189")
 		(hatch edge 0.5)
 		(connect_pads
 			(clearance 0)
